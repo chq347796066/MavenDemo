@@ -7,13 +7,13 @@ import java.util.Queue;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class FirstTest {
+public class MultithreadingTest {
     static ExecutorService executor= Executors.newFixedThreadPool(10);
 
     private static int page=0;
     private static final int size=1000;
     private static int THREAD_SIZE=5;
-    private static Queue<Data>queue=new ArrayBlockingQueue<Data>(10000);
+    private static Queue<List<Data>>queue=new ArrayBlockingQueue<List<Data>>(100);
     public static void main(String[] args) {
         long start=System.currentTimeMillis();
         for(int i=0;i<THREAD_SIZE;i++){
@@ -47,7 +47,7 @@ public class FirstTest {
                     page++;
                 }
                 if(list!=null&&list.size()>0) {
-                    queue.addAll(list);
+                    queue.add(list);
                 }
                 if (list.size() < size) {
                     System.out.println("GetDataTask done");
@@ -61,9 +61,16 @@ public class FirstTest {
     static class WriteDataTask implements Runnable{
         public void run() {
             while (true){
-                Data data = queue.poll();
-                if(data!=null){
-                    System.out.println("data:"+data);
+                List<Data>list= queue.poll();
+                if(list!=null&&list.size()>0){
+                    for (Data data:list){
+                        System.out.println("data:"+data);
+                    }
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
                 if(atomicBoolean.get()){
                     break;

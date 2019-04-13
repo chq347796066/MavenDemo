@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4dc1e3a-e857-4a6e-a3e2-d246f3298528" name="Default Changelist" comment="" />
+    <list default="true" id="f4dc1e3a-e857-4a6e-a3e2-d246f3298528" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chen/test/SinglethreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MavenDemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chen/test/MultithreadingTest$GetDataTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chen/test/MultithreadingTest$WriteDataTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chen/test/MultithreadingTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chen/test/SinglethreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/test/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chen/test/MultithreadingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chen/test/FirstTest$GetDataTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chen/test/FirstTest$WriteDataTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chen/test/FirstTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/FirstTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/MultithreadingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="1133">
+              <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#531#537#0" expanded="true" />
+                <element signature="e#496#508#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/SinglethreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -41,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/Pallets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#524#530#0" expanded="true" />
@@ -71,6 +94,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -78,6 +104,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chen/test/Pallets.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chen/test/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chen/test/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chen/test/MultithreadingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chen/test/SinglethreadTest.java" />
       </list>
     </option>
   </component>
@@ -94,6 +122,7 @@
     <option name="width" value="1921" />
     <option name="height" value="981" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -162,9 +191,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chen.test.FirstTest" />
+  <component name="RunManager" selected="Application.SinglethreadTest">
+    <configuration name="MultithreadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.test.MultithreadingTest" />
+      <module name="MavenDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chen.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglethreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chen.test.SinglethreadTest" />
       <module name="MavenDemo" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +220,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstTest" />
+        <item itemvalue="Application.SinglethreadTest" />
+        <item itemvalue="Application.MultithreadingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +238,20 @@
       <workItem from="1554486429310" duration="469000" />
       <workItem from="1554487270031" duration="82000" />
       <workItem from="1555172986916" duration="1512000" />
-      <workItem from="1555174575199" duration="6652000" />
+      <workItem from="1555174575199" duration="8971000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1555181640862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555181640862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8715000" />
+    <option name="totallyTimeSpent" value="11034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="979" extended-state="6" />
@@ -214,7 +265,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4983089" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4475761" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,6 +290,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -250,7 +305,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/Pallets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#524#530#0" expanded="true" />
@@ -282,14 +337,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/MultithreadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="1133">
+          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#531#537#0" expanded="true" />
+            <element signature="e#496#508#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/test/SinglethreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
