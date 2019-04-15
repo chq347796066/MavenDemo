@@ -1,15 +1,14 @@
 package com.chen.test;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Setter
+@Getter
 public class Data {
     private String id;
     private long index;
